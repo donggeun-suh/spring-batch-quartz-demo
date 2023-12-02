@@ -1,0 +1,26 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: local
+#  datasource:
+#    # MYSQL_ADDR:PORT/DATABASE
+#    url: jdbc:mysql://localhost:3306/batch_test
+#    # mysql databases를 access하기위한 계정
+#    username: root
+#    password: dk419081723!
+#    # mysql용 jdbc드라이버
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    open-in-view: true
+#    hibernate:
+#      ddl-auto: create
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    show-sql: true
+#    properties:
+#      hibernate.format_sql: true
+#      dialect: org.hibernate.dialect.MySQL8InnoDBDialect
+#
+#
+#      #jdbc:mysql://localhost/batch_test?autoReconnect=true&useUnicode=true&characterEnc
+#      #oding=UTF-8&useSSL=true&serverTimezone=UTC&tinyInt1isBit=false
